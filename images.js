@@ -32,12 +32,17 @@ window.onload = function(){
     download.style.display = "none"
     reset.style.display = "none"
     imgBox.style.display = "none"
+    document.querySelector(".filters").style.display ="none"
 }
 
 upload.onchange = function(){
     download.style.display = "block";
     reset.style.display = "block";
     imgBox.style.display = "block";
+    document.querySelector(".filters").style.display="block;
+    document.getElementById("theUpload").innerHTML = "change the image";
+
+    
     let file = new FileReader();
     file.readAsDataURL(upload.files[0]);
     file.onload = function(){
