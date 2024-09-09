@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,7 +16,7 @@
                 <canvas id="canvas"></canvas>
             </div>
             <div class="upload">
-                <label for="upload">upload</label>
+                <label for="upload" id="theUpload">upload</label>
                 <input type="file" id="upload">
             </div>
         </div>
