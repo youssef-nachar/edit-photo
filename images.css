@@ -75,6 +75,6 @@ body{
         grid-template-columns: 1fr
     }
     .img img, canvas{
-        max-width: 40vw;
+        max-width: 60vw;
     }
 }
