@@ -37,7 +37,10 @@ body{
     border:2px #fff dashed;
     cursor: pointer
 }
-
+.filters{
+height:200px;
+overflow:auto;
+}
 .filters ul{
     display: flex;
     flex-direction: column;
