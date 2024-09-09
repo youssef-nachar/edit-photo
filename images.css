@@ -69,8 +69,6 @@ body{
 }
 @media screen and (max-width:650px){
     .container{
-        display:grid;
-        justify-content:center;
         gap:50px;
         grid-template-columns: 1fr
     }
