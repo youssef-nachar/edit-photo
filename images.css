@@ -67,9 +67,9 @@ body{
     background: #060;
     cursor: pointer
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:650px){
     .container{
-        display:flex;
+        display:grid;
         justify-content:center;
         gap:50px;
         grid-template-columns: 1fr
